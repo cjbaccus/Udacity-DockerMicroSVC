@@ -7,7 +7,7 @@ WORKDIR /app
 COPY . app.py /app/
 
 # Install packages from requirements
-# hadolint ignore=DL3013
+# Hadolint ignore=DL3013
 RUN pip install --no-cache-dir --upgrade pip &&\
     pip install --no-cache-dir --trusted-host pypi.python.org -r requirements.txt
 
