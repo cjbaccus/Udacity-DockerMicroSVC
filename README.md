@@ -1,2 +1,2 @@
 # Udacity-DockerMicroSVC
-my 4th project with Udacity, deploying containerized microservices for AI 
+The 4th project for the Udacity DevOps project.
